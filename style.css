@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+}
+
+.heading{
+    /* border: 1px solid black; */
+    margin-top: 200px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.main{
+    width: 800px;
+    margin: auto;
+    /* border: 1px solid black; */
+    padding: 8px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+
+    background: rgb(175, 175, 116);
+
+}
+
+.main input{
+    margin-bottom: 30px;
+    height: 30px;
+    width: 65px;
+    padding: 5px;
+    font-family: Montserrat;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+.main button{
+    height: 40px;
+    width: 160px;
+    padding: 5px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.main button:hover{
+    background: black;
+    color: white;
+    transition: 0.4s;
+}
+.answer{
+    font-family: Montserrat;
+    text-transform: uppercase;
+    width: 800px;
+    margin: auto;
+    /* border: 1px solid black; */
+    padding: 8px;
+  
+    background: rgb(170, 170, 169);
+}
